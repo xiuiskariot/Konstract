@@ -1,13 +1,6 @@
 .good_bay {
-  
-  background-image: url(/images/bg_footer.svg);
-  background-repeat: no-repeat;
+  background-image: url(/images/bg_footer_webp.webp);
   background-position: cover;
-  background-position: center;
-  display: block;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 120px 0 231px;
 }
 

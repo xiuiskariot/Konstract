@@ -57,6 +57,7 @@ footer {
   padding-left: 16px;
   position: absolute;
   right: 150px;
+  -webkit-appearance: none;
 }
 
 .subscription-email.signed {
