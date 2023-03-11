@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style/style.css">
-  <title>Document</title>
+  <title>Konstruct</title>
 </head>
 <body>
   <header>
@@ -19,10 +19,13 @@
         <h1>PARTNER WITH KONSTUCT</h1>
         <div class="slogan">An award-winning construction management firm</div>
       </div>
-      <a class="scroll_down" href="#">SCROLL DOWN</a>
+      <a class="scroll_down" href="#story">SCROLL DOWN</a>
     </div>
     <!-- Меню навигации -->
-    <div class="navbar">
+  
+  </header>
+  <main>
+    <nav class="navbar" id="story">
       <div class="navbar__wrap">
         <img class="black_logo" src="./images/company-logo-black.svg" alt="Logo" width="80px">
         <div class="menu">
@@ -35,11 +38,54 @@
           </ul>
         </div>
       </div>
-    </div>
-  </header>
-  <main>
-    <section class="story"></section>
-    <section class="capabilities"></section>
+    </nav>  
+    <!-- Our story -->
+    <section class="story">
+      <div class="container">
+        <h2 class="story__title">OUR STORY</h2>
+        <span class="line"></span>
+        <div class="story__wrap">
+          <h3>Founded in 2011 by John Mathew Smith, <span style="color:#00A4E5"  >Konstruct</span> has become the number one construction management</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+          <div class="story__pic">
+            <img src="./images/plan.svg" alt="We plan" class="pic">
+            <img src="./images/manage.svg" alt="We manage" class="pic">
+            <img src="./images/deliver.svg" alt="" class="pic">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="capabilities">
+      <div class="container">
+        <div class="capa__wrap">
+          <h2 class="capa__title">OUR CAPABILITIES</h2>
+          <span class="line2 "></span>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+          <a href="#">ALL SERVICES</a>
+          <div class="cards">
+            <article>
+              <img src="./images/Bitmap.svg" alt="" class="card__logo">
+              <p class="capa__item">PROJECT AND CONSTRUCTION MANAGEMENT</p>
+              <p class="discript">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+            </article>
+
+            <article>
+              <img src="./images/Bitmap(1).svg" alt="" class="card__logo">
+              <p class="capa__item">STRUCTURE AUDIT AND MAINTENANCE</p>
+              <p class="discript">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+            </article>
+
+            <article>
+              <img src="./images/Bitmap(2).svg" alt="" class="card__logo">
+              <p class="capa__item">FACTORY CONSTRUCTION AND MODELING</p>
+              <p class="discript">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+            </article>
+          </div>
+        </div>
+      
+      </div>
+      
+    </section>
     <section class="good_bay"></section>
   </main>
   <footer></footer>
