@@ -1,5 +1,6 @@
 .capabilities {
   padding-top: 50px;
+  padding-bottom: 115px;
 }
 
 .line2 {
@@ -43,6 +44,7 @@ article {
 
 .card__logo:hover {
   transform: translate(5px, -5px);
+  transform: scale(1.1);
   transition: 0.5s;
   filter: grayscale(0);
 }

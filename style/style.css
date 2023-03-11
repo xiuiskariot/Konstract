@@ -2,6 +2,8 @@
 @import url(./navbar.css);
 @import url(./story.css);
 @import url(./capabilities.css);
+@import url(./get_in_touch.css);
+@import url(./footer.css);
 
 * {
   margin: 0;
