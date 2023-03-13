@@ -1,6 +1,9 @@
 .good_bay {
   background-image: url(/images/bg_footer_webp.webp);
-  background-position: cover;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 120px 0 231px;
 }
 

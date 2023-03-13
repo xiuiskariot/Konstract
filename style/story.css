@@ -1,10 +1,22 @@
 .story {
-  padding: 48px 0 58px;
+  padding: 48px 0 126px;
+  background: #fff;
+}
+.story__wrapper {
+  padding: 48px 0 129px;
+}
+.story__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2.3px;
+  text-align: center;
+  color: #48555B;
 }
 
 .story__title {
   text-align: center;
-  margin-bottom: 11px;
+  margin-bottom: 11px; 
 }
 
 .line {
@@ -16,32 +28,49 @@
   margin-bottom: 82px;
 }
 
-.story__wrap {
-  position: relative;
-  height: 224px;
+.story__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #48555B;
+  margin-top: 77px;
+  justify-content: space-between;
 }
-
+.story__wrap{
+  max-width: 405px;
+}
 .story__wrap > h3 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 405px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  margin-bottom: 30px;
 }
-
 .story__wrap > p {
-  position: absolute;
-  top: 110px;
-  left: 0;
-  width: 405px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  text-align: left;
 }
-
+.story__pics {
+  display: flex;
+  justify-content: space-between;
+  width: 460px;
+}
 .story__pic {
-  position: absolute;
-  top: 0;
-  right: 0;
-  
+  position: relative;
 }
 
-.story__pic > img {
-  margin-left: 20px;
+.story__pic > p {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0.2px;
+  color: #fff;
+  width: 108px;
 }

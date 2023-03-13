@@ -1,5 +1,4 @@
 .capabilities {
-  padding-top: 50px;
   padding-bottom: 115px;
 }
 
@@ -13,14 +12,14 @@
 }
 
 .capa__wrap {
-  height: 447px;
+  min-height: 447px;
   position: relative;
 }
 
 
 article {
   display: block;
-  height: 330px;
+  min-height: 330px;
   width: 295px;
   border: 1px solid #E6E6E6;
   padding: 0px 21px 39px;

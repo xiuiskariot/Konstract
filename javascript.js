@@ -1,1 +1,0 @@
-let signup = querySelector(".subscription-button");
