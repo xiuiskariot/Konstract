@@ -60,6 +60,10 @@ footer {
   -webkit-appearance: none;
 }
 
+.subscription-email:focus {
+  outline: 0;
+}
+
 .subscription-email.signed {
   background: #00A4E5;
 }
